@@ -86,10 +86,13 @@ nav a:hover::before {
 
 
 footer {
-	position: absolute;
-	bottom: 50px;
-	left: 850px;
+	position: fixed;
+	bottom: 0;
 	color: WHITE;
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+	
 }
 
 
