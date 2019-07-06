@@ -52,7 +52,8 @@ nav a {
 	color: #444;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 nav a:hover {
@@ -78,12 +79,12 @@ nav a:hover::before {
 }
 
 footer {
-	position: absolute;
-	bottom: 50px;
-	left: 850px;
+   position: relative;
+    height: 10px;
+    margin-left: 50%;
+    clear: both;
 	color: WHITE;
 }
-
 
 #topContainer{
    width: auto;
@@ -92,9 +93,9 @@ footer {
 
 .featureBox {
   font-family: arial;
-  border: 1px solid red ;
+  /*border: 1px solid red ;*/
   width: 45%;
-  background-color: #ffffff ;
+  background-color: #000 ;
   border-radius: 5px ;
   /*box-shadow: 5px 6px #808080 ;*/
   margin: 20px;
@@ -103,7 +104,6 @@ footer {
   margin-top: 100px;
   float: right;
 	animation: 0.5s ease-out 0s 1 slideRight;
-
 -webkit-touch-callout: none; /* iOS Safari */
 -webkit-user-select: none; /* Safari */
 -khtml-user-select: none; /* Konqueror HTML */
@@ -113,29 +113,62 @@ user-select: none;
 
 }
 
-.sloganBox {
-  font-family: arial;
-  width: 40%;
-  margin: 30px;
-  margin-right:auto;
-  margin-left:5%;
-  padding-top: 5%;
--webkit-touch-callout: none; /* iOS Safari */
--webkit-user-select: none; /* Safari */
--khtml-user-select: none; /* Konqueror HTML */
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* Internet Explorer/Edge */
-user-select: none;
-	animation: 0.5s ease-out 0s 1 slideLeft;
+#sloganBox1 {
+  	font-family: arial;
+	color: #FF8000;
+    margin-top: 200px;
+    padding-right: 40px;
+    font-size: 30px;
+    text-align: center;
+
+    float: top-left;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+#sloganBox2 {
+  	font-family: arial;
 	color: #ff601b;
+    margin-top: 25px;
+    font-size: 21px;
+	animation: 2s ease-out 0s 1 slideLeft;
+	text-align: center;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
 }
 
+#sloganBox3 {
+  	font-family: arial;
+	color: #ff601b;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+
+	animation: 3s ease-out 0s 1 slideLeft;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+
+
+}
 /*Featured text slider*/
 .slider-holder
     {
         width: 800px;
         height: 400px;
-        background-color: yellow;
+        background-color: black;
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
@@ -146,7 +179,7 @@ user-select: none;
     .image-holder
     {
         width: 2400px;
-        background-color: red;
+        background-color: black;
         height: 400px;
         clear: both;
         position: relative;
@@ -189,6 +222,8 @@ user-select: none;
         background-color: white;
     }
 
+
+
 /*ANIMATION DEFINITIONS*/
 @keyframes slideLeft {
   0% {transform: translateX(-100%);}
@@ -201,10 +236,43 @@ user-select: none;
 }
 
 @keyframes slideTop {
-  0% {transform: translateY(-100%);}
+  0% {transform: translateY(-200%);}
   100% {transform: translateY(0);}
 }
 @keyframes slideBottom {
-  0% {transform: translateY(100%);}
+  0% {transform: translateY(200%);}
   100% {transform: translateY(0);}
 }
+/*
+  font-family: arial;
+  width: 40%;
+  margin: 30px;
+  margin-right:auto;
+  margin-left:5%;
+  padding-top: 5%;
+*/
+
+
+@keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-o-keyframes fadein { /* Opera */
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+
+/*
+	animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox
+    -webkit-animation: fadein 10s; /* Safari and Chrome
+    -o-animation: fadein 2s; /* Opera
+*/
