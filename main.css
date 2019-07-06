@@ -71,20 +71,6 @@ nav a:hover::before {
 	width: 100%;
 }
 
-
-.clock {
-	position: relative;
-	text-align: center;
-	top: 750px;
-
-}
-
-
-
-
-
-
-
 footer {
 	position: absolute;
 	bottom: 50px;
@@ -92,3 +78,43 @@ footer {
 	color: WHITE;
 }
 
+
+#topContainer{
+   width: auto;
+    margin: auto;
+}
+
+.featureBox {
+  font-family: arial;
+  border: 1px solid red ;
+  width: 45%;
+  background-color: #0ccc79 ;
+  border-radius: 5px ;
+  /*box-shadow: 5px 6px #808080 ;*/
+  margin: 20px;
+  margin-left:auto;
+  margin-right:10;
+  float: right;
+
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none;
+}
+
+.sloganBox {
+  font-family: arial;
+  width: 40%;
+  margin: 30px;
+  margin-right:auto;
+  margin-left:5%;
+  padding-top: 5%;
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none;
+}
