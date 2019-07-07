@@ -1,0 +1,29 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## [Unreleased]
+
+## [0.0.2] - 07/06/2019
+### Added
+- categories in the menu bar with a dropdown menu
+- Animation to selection menu
+- Animation to featured works
+- Animation to slogan text
+- Slider for featured works
+- Added java doc style comments above each element
+- new files for categories (poem, novel, script, short story)
+
+
+### Changed
+- featured works box color to match header
+- font color for featured works, slogan
+- adjusted menu font
+- color scheme
+
+### Removed
+- featured box
+
+
+## [0.0.1] - 07/06/2019
+### Added
+- created a changelog for all future versions

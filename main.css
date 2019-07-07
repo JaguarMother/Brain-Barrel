@@ -3,12 +3,20 @@ body {
 	background: #222;
 	font-weight: 300;
 }
-
+/*
+*---------------------------------------
+* container for the nav bar.
+*---------------------------------------
+*/
 .container {
 	width: 80%;
 	margin: 0 auto;
 }
-
+/*
+*---------------------------------------
+* everything with nav bar here.
+*---------------------------------------
+*/
 header{
 	background: #55d6aa;
 }
@@ -36,19 +44,26 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	margin-left: 70px;
+	margin-left: 60px;
 	padding-top: 60px;
-
 	position: relative;
 }
-
+/*
+*---------------------------------------
+* makes the nav items uppercase.
+*---------------------------------------
+*/
 nav a {
 	color: #444;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 16px;
 }
-
+/*
+*---------------------------------------
+* color of nav items when hovering.
+*---------------------------------------
+*/
 nav a:hover {
 	color: #000;
 }
@@ -71,25 +86,69 @@ nav a:hover::before {
 	width: 100%;
 }
 
-footer {
-	position: absolute;
-	bottom: 50px;
-	left: 850px;
-	color: WHITE;
+/*
+*---------------------------------------
+* dropdown button for the categories tab.
+*---------------------------------------
+*/
+li a, .dropbtn {
+  display: inline-block;
+  color: #444;
+  text-align: left;
+  text-decoration: none;
+}
+
+li a.dropdown:hover .dropbtn {
+  background-color: #444;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #55d6aa;
+  padding: 10px;
+  text-decoration: none;
+  text-align: left;
 }
 
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*
+*---------------------------------------
+* container for the featured box.
+*---------------------------------------
+*/
+
 #topContainer{
-   width: auto;
+	width: auto;
     margin: auto;
 }
 
+/*
+*---------------------------------------
+* the actual feature box.
+*---------------------------------------
+*/
 .featureBox {
   font-family: arial;
   border: 1px solid red ;
   width: 45%;
-  background-color: #0ccc79 ;
-  border-radius: 5px ;
+  background-color: #55d6aa; 
+  border-radius: 5px;
   /*box-shadow: 5px 6px #808080 ;*/
   margin: 20px;
   margin-left:auto;
@@ -103,7 +162,12 @@ footer {
 -ms-user-select: none; /* Internet Explorer/Edge */
 user-select: none;
 }
-
+/*
+*---------------------------------------
+* this is the slogan text that is to the
+* left of the featured box.
+*---------------------------------------
+*/
 .sloganBox {
   font-family: arial;
   width: 40%;
@@ -117,4 +181,55 @@ user-select: none;
 -moz-user-select: none; /* Firefox */
 -ms-user-select: none; /* Internet Explorer/Edge */
 user-select: none;
+}
+
+/*
+*--------------------------------------------
+* This is the category boxes at the bottom of
+* the page, there is a container, and items.
+* the flex allows the items to go or shrink
+* based on window size.
+*--------------------------------------------
+
+.catContainer {
+	padding: 5px;
+	margin-left: 0;
+  	list-style: none;
+  	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: nowrap;
+  	justify-content: space-around;
+}
+
+.catBox {
+	background: #f98b03;
+  	border-radius: 25px;
+  	padding: 20px;
+  	padding-left: 10px;
+  	width: 600px;
+  	height: 150px;
+  	margin: 10px;
+  	margin-top: 50vh;
+  	line-height: 135px;
+  	color: #444;
+  	font-size: 16px;
+  	text-align: center;
+}
+*/
+
+
+
+/*
+*---------------------------------------
+* footer that contains copyright info
+*---------------------------------------
+*/
+footer {
+	position: absolute;
+	bottom: 50px;
+	left: 850px;
+	color: WHITE;
 }
