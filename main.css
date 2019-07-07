@@ -88,6 +88,8 @@ footer {
 
 #topContainer{
    width: auto;
+
+   overflow-x: hidden;
     margin: auto;
 }
 
@@ -96,6 +98,7 @@ footer {
   /*border: 1px solid red ;*/
   width: 45%;
   background-color: #000 ;
+  background: transparent;
   border-radius: 5px ;
   /*box-shadow: 5px 6px #808080 ;*/
   margin: 20px;
