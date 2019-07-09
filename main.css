@@ -1,8 +1,14 @@
+html { /*adjusted for sticky footer*/
+  height: 100%;
+  margin: 0;
+}
+
 body {
 	margin: 0;
 	background: #293133;
   /*background-image: linear-gradient(#FF8000, red);*/
 	font-weight: 300;
+  height: 100%;
 }
 
 /*
@@ -140,6 +146,15 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*
+*---------------------------------------
+* ain content wrapper
+*---------------------------------------
+*/
+.mainWrapper {
+  min-height: 100%;
 }
 
 /*
