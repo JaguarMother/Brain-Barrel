@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+
+## [0.0.3] - 07/09/2019
+### Added
+- secondary css file for side pages
+
+### Changed
+- made footer sticky and pushed to bottom
+- added contact and about menu and basic content
+
+### Removed
+
 ## [0.0.2] - 07/06/2019
 ### Added
 - categories in the menu bar with a dropdown menu
