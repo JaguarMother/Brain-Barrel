@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 
+## [0.0.4] - 07/20/2019
+### Added
+- Assets Folder
+
+### Changed
+- Background color of website
+- Nav bar color
+- BB logo
+- moved loose files to Assests
+
+### Removed
+- all options from nav bar
+- unused files
+
+
 ## [0.0.3] - 07/09/2019
 ### Added
 - secondary css file for side pages

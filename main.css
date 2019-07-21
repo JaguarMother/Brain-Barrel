@@ -5,7 +5,7 @@ html { /*adjusted for sticky footer*/
 
 body {
 	margin: 0;
-	background: #293133;
+	background: #F8F5F1;
   /*background-image: linear-gradient(#FF8000, red);*/
 	font-weight: 300;
   height: 100%;
@@ -25,40 +25,37 @@ body {
 * everything with nav bar here.
 *---------------------------------------
 */
-header{
-	background: #FF8000;
-	font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
-	font-size: 32px;
-	animation: 0.5s ease-out 0s 1 slideBottom;
- 	padding: 30px;
-}
-
-.logo {
-	float: left;
-	padding: 0px;
+header {
+  background: #F8ECC2;
 }
 
 header::after {
-	content: '';
-	display: table;
-	clear: both;
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
 }
 
 nav {
-	float: right;
+  float: right;
 }
 
 nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-	display: inline-block;
-	margin-left: 70px;
-	padding-top: 30px;
-	position: relative;
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
 }
 /*
 *---------------------------------------
@@ -66,11 +63,10 @@ nav li {
 *---------------------------------------
 */
 nav a {
-	color: #000;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 /*
 *---------------------------------------
@@ -78,26 +74,26 @@ nav a {
 *---------------------------------------
 */
 nav a:hover {
-	color: #444;
+  color: #000;
 }
 
-nav a::before{
-	content: '';
-	display: block;
-	height: 5px;
-	width: 100%;
-	background-color: #444;
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
 
-	position: absolute;
-	top: 0;
-	width: 0%;
+  position: absolute;
+  top: 0;
+  width: 0%;
 
-	transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
-	width: 100%;
+  width: 100%;
 }
+
 
 footer {
    position: relative;
@@ -150,7 +146,7 @@ li.dropdown {
 
 /*
 *---------------------------------------
-* ain content wrapper
+* main content wrapper
 *---------------------------------------
 */
 .mainWrapper {
