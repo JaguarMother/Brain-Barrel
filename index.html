@@ -1,68 +1,67 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
-	<title>InnWord | A Tavern for all your words</title>
-	<link rel="stylesheet" href="main.css" />
+    <title>InnWord | A Tavern for all your words</title>
+    <link rel="stylesheet" href="main.css" />
 </head>
 <script type="text/javascript" src="scripts.js"></script>
+
 <header>
-	<div class="login-container">
-		<form>
-			<input type ="text" placeholder ="Username">
-			<input type ="password" placeholder ="Password">
-			<button type ="submit" onClick="href='signup.html'"> Get Started </button>
-			<button type ="submit"> Login </button>
-		</form>
-	</div>
-	<a href="index.html"><img src="Assets/IW_logo.png" alt="logo" class="logo">
+    <div class="login-container">
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="submit" onClick="href='signup.html'"> Get Started </button>
+            <button type="submit"> Login </button>
+        </form>
+    </div>
+    <a href="index.html"><img src="Assets/IW_logo.png" alt="logo" class="logo">
 
 </header>
+
 <body>
 
-<div class="mainWrapper">
-<div id="topContainer">
-	<div class="featureBox">
-
-			<h1 style="text-align:right; font-size:50px; padding-right: 30%;color: #f98b03;">Featured stories for today</h1>
-
-	    <div class="slider-holder">
-	        <span id="slider-image-1"></span>
-	        <span id="slider-image-2"></span>
-	        <span id="slider-image-3"></span>
-	        <div class="image-holder">
-	            <img src="Assets/image1.jpg"  class="slider-image" />
-	            <img src="Assets/image2.jpg" class="slider-image" />
-	            <img src="Assets/image3.jpg" class="slider-image" />
-	        </div>
-	        <div class="button-holder">
-	            <a href="#slider-image-1" class="slider-change"></a>
-	            <a href="#slider-image-2" class="slider-change"></a>
-	            <a href="#slider-image-3" class="slider-change"></a>
-	        </div>
-	    </div>
-	</div>
-
-	<div id="sloganBox1";> <!-- style="display: inline-block" -->  <!--inline block to keep side by side with featured slider-->
-		<p><strong>What we're reading</strong></p>
-	</div>
-		<div id="sloganBox2"; > 
-		<p><strong>Slogan/quick text goes here</strong></p>
-	</div>
-	<div id="sloganBox3"; > 
-		<p><strong>Slogan/quick text goes here</strong></p>
-	</div>
-
-</div>
-</div>
-	<main>
-
-	</main>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>What we're reading</h2>
+            </div>
+            <div class="card">
+                <h2>Discover your favorite genres</h2>
+                <div class="fakeimg" style="height:200px;">Image</div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Quick Links</h2>
+                <div class="fakeimg" style="height:300px;">Image</div>
+                <p>Some text ..</p>
+            </div>
+            <div class="card">
+                <div>
+                    <h3>About us</h3>
+                    <h3>Contact</h3>
+                    <h3>Terms</h3>
+                    <h3>Privacy</h3>
+                    <h3>Help</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Follow us on social media</h3>
+                <a href="https://twitter.com" target="_blank">
+                    <img alt="twitter" src="Assets/tw_icon.png" style="width:42px;height:42px;border:0;"></a>
+                <a href="https://instagram.com" target="_blank">
+                    <img alt="instagram" src="Assets/ig_icon.png" style="width:42px;height:42px;border:0;"></a>
+            </div>
+        </div>
+    </div>
 </body>
 
-
 <footer id="footer" style="margin-bottom: 15px">
-	© InnWord, 2019
+    © InnWord, 2019
 </footer>
 
 </html>
-
