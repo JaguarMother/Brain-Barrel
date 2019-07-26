@@ -20,6 +20,42 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+
+/*
+*---------------------------------------
+* Login container
+*---------------------------------------
+*/
+.login-container {
+  float:right;
+}
+
+input{
+  padding:5px;
+  margin-top:25px;
+  font-size:14px;
+  border:none;
+  width:130px;
+  border-radius:15px;
+}
+button {
+  float:right;
+  padding:5px 10px;
+  margin-top:25px;
+  margin-right:50px;
+  margin-left:5px;
+  background:grey;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  border:none;
+  cursor:pointer;
+  border-radius:15px;
+}
+button:hover {
+  background:green;
+}
+
 /*
 *---------------------------------------
 * everything with nav bar here.
@@ -100,48 +136,7 @@ footer {
     height: 10px;
     margin-left: 47%;
     clear: both;
-	color: WHITE;
-}
-
-/*
-*---------------------------------------
-* dropdown button for the categories tab.
-*---------------------------------------
-*/
-li a, .dropbtn {
-  display: inline-block;
-  color: #444;
-  text-align: left;
-  text-decoration: none;
-}
-
-li a.dropdown:hover .dropbtn {
-  background-color: #444;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #444;
-  min-width: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #55d6aa;
-  padding: 10px;
-  text-decoration: none;
-  text-align: left;
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: block;
+	color: BLACK;
 }
 
 /*
@@ -305,58 +300,3 @@ user-select: none;
         border-radius: 5px;
         background-color: white;
     }
-
-
-
-/*ANIMATION DEFINITIONS*/
-@keyframes slideLeft {
-  0% {transform: translateX(-100%);}
-  100% {transform: translateX(0);}
-}
-
-@keyframes slideRight {
-  0% {transform: translateX(100%);}
-  100% {transform: translateX(0);}
-}
-
-@keyframes slideTop {
-  0% {transform: translateY(-200%);}
-  100% {transform: translateY(0);}
-}
-@keyframes slideBottom {
-  0% {transform: translateY(200%);}
-  100% {transform: translateY(0);}
-}
-/*
-  font-family: arial;
-  width: 40%;
-  margin: 30px;
-  margin-right:auto;
-  margin-left:5%;
-  padding-top: 5%;
-*/
-
-
-@keyframes fadein {
-    from {opacity:0;}
-    to {opacity:1;}
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {opacity:0;}
-    to {opacity:1;}
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {opacity:0;}
-    to {opacity:1;}
-}
-@-o-keyframes fadein { /* Opera */
-    from {opacity:0;}
-    to {opacity: 1;}
-}
-
-/*
-	animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox
-    -webkit-animation: fadein 10s; /* Safari and Chrome
-    -o-animation: fadein 2s; /* Opera
-*/

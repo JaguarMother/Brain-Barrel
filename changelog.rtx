@@ -3,6 +3,19 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.5] - 07/26/2019
+### Added
+- login and password boxes w/ login button
+- New logo
+
+### Changed
+- title for webpage
+- footer color and text
+
+### Removed
+- Brain Barrel logo
+
+
 
 ## [0.0.4] - 07/20/2019
 ### Added
