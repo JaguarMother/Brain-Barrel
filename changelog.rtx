@@ -7,10 +7,12 @@ All notable changes to this project will be documented in this file.
 ### Added
 - login and password boxes w/ login button
 - New logo
+- Get Started button
 
 ### Changed
 - title for webpage
 - footer color and text
+- flavor text
 
 ### Removed
 - Brain Barrel logo

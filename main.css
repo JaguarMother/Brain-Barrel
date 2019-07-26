@@ -23,6 +23,12 @@ body {
 
 /*
 *---------------------------------------
+* Sign up button
+*---------------------------------------
+*/
+
+/*
+*---------------------------------------
 * Login container
 *---------------------------------------
 */
@@ -42,7 +48,7 @@ button {
   float:right;
   padding:5px 10px;
   margin-top:25px;
-  margin-right:50px;
+  margin-right:4px;
   margin-left:5px;
   background:grey;
   color:#fff;
@@ -300,3 +306,9 @@ user-select: none;
         border-radius: 5px;
         background-color: white;
     }
+
+
+
+
+
+
